@@ -1,0 +1,31 @@
+body {
+  background-color: #fffcfc;
+  font-family: "Proza Libre", sans-serif;
+}
+
+header {
+  background-color: #e5d1d1;
+  color: white;
+  padding: 15px 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+/* .hidden {
+  display: none;
+} */

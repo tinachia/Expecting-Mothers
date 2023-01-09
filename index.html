@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Project</title>
+  <title>Expecting Mothers</title>
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+
+
   <header>
+    <div class="container">
+      <div class="row">
+        <div class="page-container column-full">
+          <a href="#" class="page active" id="header" data-view="month-page">Month-by-Month</a>
+          <a href="#" class="page" data-view="preparation-page">Preparations</a>
+          <a href="#" class="page" data-view="log-page">Monthly Log</a>
+          <a href="#" class="page" data-view="login-page">Log In</a>
+        </div>
+      </div>
+    </div>
   </header>
+
   <main>
+
+    <div class="container view" data-view="login-page">
+      <div class="row">
+        <div class="column-full"></div>
+      </div>
+    </div>
+
+    <div class="container view hidden" data-view="month-page">
+      <div class="row">
+        <div class="column-full">
+          <h3>What to Expect, When You Are Expecting</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-half">
+          <div>
+            <img class="bump-pic" src="https://i.pinimg.com/564x/09/a5/73/09a5737689b0687770670570dbde3efc.jpg"
+              alt="bump-pic">
+          </div>
+        </div>
+        <div class="column-half">
+          <p>
+            Congratulations, and welcome to your pregnancy! From what to expect each month to how to prepare for labor
+            and beyond,
+            here's the info you need.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
